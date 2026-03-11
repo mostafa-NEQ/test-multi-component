@@ -1,0 +1,13 @@
+name: component_one
+description: "First test component with flat structure"
+functions:
+  - name: process
+    inputs:
+      - name: text
+        type: string
+    outputs:
+      - name: result
+        type: string
+metadata:
+  entrypoint:
+    class: ComponentOneComponent

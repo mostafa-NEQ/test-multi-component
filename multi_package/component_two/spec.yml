@@ -1,0 +1,13 @@
+name: component_two
+description: "Second test component with nested src structure"
+functions:
+  - name: process
+    inputs:
+      - name: text
+        type: string
+    outputs:
+      - name: result
+        type: string
+metadata:
+  entrypoint:
+    class: ComponentTwoComponent
