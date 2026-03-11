@@ -2,5 +2,5 @@ class ComponentOneComponent:
     def __init__(self, config):
         self.config = config
 
-    def process(self, inputs):
-        return {"result": f"Component One received: {inputs.get('text')}"}
+    def process(self, text=None, **kwargs):
+        return {"result": f"Component One received: {text}"}
